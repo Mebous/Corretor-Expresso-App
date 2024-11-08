@@ -1,0 +1,117 @@
+@import url('backgrond_animated.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    box-sizing: content-box;
+
+    font-family: 'Courier New', 'Exo', Courier, monospace;
+    font-weight: bold;
+    color: #33312d;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+button {
+    background-color: transparent;
+    font-size: 16px;
+}
+
+
+.white_box {
+    background-color: #ffffff;
+    max-width: 80vw;
+
+    border-radius: 6px;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 24px;
+}
+
+main {
+    flex-direction: column;
+    padding: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 24px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrp-explanation_box {
+    width: 360px;
+
+    text-align: justify;
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.wrp-warning_field {
+    width: 280px;
+
+    text-align: justify;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.box_file {
+    border: dashed 3px #78746c;
+    border-radius: 6px;
+}
+.box_file:hover {
+    background-color: #ccc7bf;
+}
+.box_file form input[type=file] {
+    display: none;
+}
+.btn_style {
+    width: 180px;
+    height: 30px;
+    padding: 8px;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrp-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.wrp-img img {
+    width: 200px;
+}
