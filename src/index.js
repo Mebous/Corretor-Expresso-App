@@ -7,13 +7,15 @@ const path = require('node:path');
 if (require('electron-squirrel-startup')) {
     app.quit();
 }
-
+// "build": {
+//     "icon": "./assets/imgs/arregao200x200.ico"
+//   },
 const createWindow = () => {
   // Create the browser window.
     const mainWindow = new BrowserWindow({
         width: 800,
         height: 600,
-        icon: '../assets/imgs/icone_colorido.png',
+        icon: "assets/imgs/logo.ico", 
         
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
